@@ -46,4 +46,8 @@ class User extends Authenticatable
         {
             return $this->belongsTo(Sala::class);
         }
+    public function Clientes()
+        {
+            return $this->hasMany(Cliente::class);
+        }
 }

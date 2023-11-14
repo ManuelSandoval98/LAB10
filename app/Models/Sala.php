@@ -17,4 +17,8 @@ class Sala extends Model
         {
             return $this->belongsTo(Pelicula::class);
         }
+    public function Users()
+        {
+            return $this->belongsTo(User::class);
+        }
 }
