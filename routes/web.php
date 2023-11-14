@@ -1,7 +1,10 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Models\Pelicula;
+use App\Models\Cliente;
+use App\Models\Sala;
+use App\Models\User;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
